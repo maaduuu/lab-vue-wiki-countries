@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <nav class="navbar navbar-dark bg-primary mb-3 ml-5">
+  <div class="NavBar container">
+    <nav class="navbar navbar-dark bg-primary mb-3 ">
     
         <a class="navbar-brand" href="/">WikiCountries</a>
    

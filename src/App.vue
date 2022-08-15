@@ -1,13 +1,24 @@
 <template>
-    <div class="app">
-        <router-view />
+<div class="app">
+  <NavBar />
+
+  <!-- <div className="container">
+    <div className="row">
+      <CountriesList :countries="countries" />
+     
     </div>
+  </div> -->
+</div>
+   <router-view />
 </template>
 
 <script>
+import CountriesList from './components/CountriesList.vue';
+import NavBar from './components/NavBar.vue' 
+
 export default {
     name: "App",
-    components: {},
+    components: {NavBar, CountriesList},
     data: () => ({}),
 };
 </script>
